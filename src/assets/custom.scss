@@ -1,0 +1,23 @@
+// src/assets/custom.scss
+$white: #ffffff;
+$dark: #22204f;
+$warning: #dfc916;
+$primary: #2553eb;
+$secondary: #2e4287;
+$warning: #dfc916;
+$info: #259c24;
+$success: #149c5c;
+$danger: #ec1e09;
+
+$theme-colors: (
+    "light":      #dee5e8,
+    "dark":       #22204f,
+    "primary":    #2553eb,
+    "secondary":  #2e4287,
+    "info":       #259c24,
+    "success":    #149c5c,
+    "warning":    #dfc916,
+    "danger":     #ec1e09,
+);
+// Import Bootstrap after overriding variables
+@import 'bootstrap/scss/bootstrap';
